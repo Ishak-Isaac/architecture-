@@ -1,0 +1,19 @@
+{
+  "name": "architecture-wp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vite",
+    "build-css":"npx tailwindcss -i ./input/input.css -o ./website/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.41",
+    "tailwindcss": "^3.4.7",
+    "vite": "^5.3.5"
+  }
+}

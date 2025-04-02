@@ -1,8 +1,12 @@
-export default {
-  root: "", // Ensure Vite uses the correct root directory
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  root: './',
   build: {
     rollupOptions: {
-      input: "index.html", // Make sure it points to the right entry file
+      input: {
+        main: '/website/website.html'
+      }
     }
   }
-};
+});

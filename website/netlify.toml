@@ -1,3 +1,6 @@
 [build]
   command = "npm run build"
   publish = "dist"  # Make sure this matches Vite's output folder
+
+[context.production]
+  environment = { NODE_VERSION = "20" }

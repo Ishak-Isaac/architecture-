@@ -6,6 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build-css": "npx tailwindcss -i ./input/input.css -o ./website/output.css --watch",
+    "build" : "vite build",
     "test": "vitest"
   },
   "keywords": [],

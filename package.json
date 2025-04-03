@@ -6,7 +6,7 @@
   "scripts": {
     "dev": "vite",
     "build-css": "npx tailwindcss -i ./input/input.css -o ./website/output.css --watch",
-    "build" : "vite build",
+    "build": "vite build",
     "test": "vitest"
   },
   "keywords": [],
@@ -28,6 +28,6 @@
     "uuid": "^8.3.2"
   },
   "optionalDependencies": {
-    "@rollup/rollup-linux-x64-gnu": "4.6.1"
+    "@rollup/rollup-linux-x64-gnu": "^4.39.0"
   }
 }

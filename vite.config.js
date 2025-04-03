@@ -1,12 +1,10 @@
 import { defineConfig } from 'vite';
 
 export default defineConfig({
-  root: './',
-  build: {
+  root: "./", // Set "website" as the working directory
+  build: { // Output everything directly in "dist/"
     rollupOptions: {
-      input: {
-        main: '/website/website.html'
-      }
-    }
-  }
+      input: "website/website.html", // Ensure Vite treats website.html as the entry point
+    },
+  },
 });

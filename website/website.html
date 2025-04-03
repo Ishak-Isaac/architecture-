@@ -289,14 +289,3 @@ autSwitch();
 
 </body>
 </html>
-
-<!-- How to Deploy an app?
-First, you need to run Vite build: This is different from (run build-css) which bundles your css After running PostCss.
-You create a script "build: vite build" which is important because Vite wants to find the command in the script. Also, this is the command that makes
-Vite works at preparing your project(root directory) assets for production(Running minify, tree-shaking, and cache busting). The ouput file will be a "dist" directory.
-Before that, you need for Vite to run properly to add a "vite.config.js" file with the main entry point. This to help vite find the path towards your main project file("the entry point"):Vite needs the file that has connection with the other
-files of your project to start the building process and make them ready for production.
-This "dist" directory will be used by the deployment service to publish your project and make it live online. Any problem in the Vite building process will prevent deployment.
-Any problem in deployment depsite the successful Vite build in the VScode CLI, means your porject setting in the depolyment service is incorrect=>Your output directory should be "dist". Your
-package directory should be your main project directory(website or other).
-If you are using "netlify" for deployment, add a "netlify.toml" file in the root directory to help it find the root or package directory. Add also the Node version you're using in the project. If that was changed, update the netlify file too -->

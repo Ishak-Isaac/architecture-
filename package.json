@@ -26,5 +26,8 @@
     "glob": "^9.3.5",
     "lru-cache": "^11.1.0",
     "uuid": "^8.3.2"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-linux-x64-gnu": "4.6.1"
   }
 }

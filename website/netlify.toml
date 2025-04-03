@@ -3,4 +3,4 @@
   publish = "dist"  # Make sure this matches Vite's output folder
 
 [context.production]
-  environment = { NODE_VERSION = "18" }
+  environment = { NODE_VERSION = "23.11.0" }
